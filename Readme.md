@@ -1,7 +1,8 @@
 ## For the reference for created basic docker-compose.yml  
 
-
+```bash
 version: '3.8' # it could be 3 or 3.8
+
 
 services:
   app:
@@ -19,3 +20,4 @@ services:
       # Set environment variables for RabbitMQ and other configurations
       - RABBITMQ_CONNECTION_STRING=amqp://guest:guest@localhost:5672/
       - PORT=3000
+```
